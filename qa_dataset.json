@@ -1,0 +1,712 @@
+[
+  {
+    "q_id": "F01",
+    "q_type": "factoid",
+    "difficulty": "easy",
+    "question": "Каков синтаксис команды admin ssh show-key?",
+    "answer": "admin ssh show-key {host <адрес> | id <идентификатор> | local}",
+    "gold_chunk_id": "b7132dd9c95c48b0",
+    "doc_id": "doc_04",
+    "keywords": [
+      "admin ssh show-key",
+      "синтаксис"
+    ]
+  },
+  {
+    "q_id": "F02",
+    "q_type": "factoid",
+    "difficulty": "easy",
+    "question": "В каком режиме командного интерпретатора выполняется команда admin escape?",
+    "answer": "В режиме настройки",
+    "gold_chunk_id": "ec635a2bbab5fa64",
+    "doc_id": "doc_04",
+    "keywords": [
+      "admin escape",
+      "режим",
+      "настройки"
+    ]
+  },
+  {
+    "q_id": "F03",
+    "q_type": "factoid",
+    "difficulty": "medium",
+    "question": "Чем заканчивается приглашение командного интерпретатора в режиме просмотра?",
+    "answer": "Символом >",
+    "gold_chunk_id": "58b7654444a5840d",
+    "doc_id": "doc_01",
+    "keywords": [
+      "режим просмотра",
+      "символ",
+      ">"
+    ]
+  },
+  {
+    "q_id": "F04",
+    "q_type": "factoid",
+    "difficulty": "medium",
+    "question": "Какой символ используется для указания идентификатора сетевого узла ViPNet в командном интерпретаторе?",
+    "answer": "Шестнадцатеричный формат с префиксом 0x",
+    "gold_chunk_id": "d8712033446df375",
+    "doc_id": "doc_01",
+    "keywords": [
+      "ViPNet ID",
+      "0x",
+      "шестнадцатеричный"
+    ]
+  },
+  {
+    "q_id": "F05",
+    "q_type": "factoid",
+    "difficulty": "easy",
+    "question": "Какие документы входят в комплект документации ViPNet Coordinator HW?",
+    "answer": "Подготовка к работе, Настройка с помощью командного интерпретатора, Настройка с помощью веб-интерфейса, Справочник команд и конфигурационных файлов, Лицензионные соглашения, История версий, Перечень совместимых трансиверов",
+    "gold_chunk_id": "5d1ce3bcfc55cbae",
+    "doc_id": "doc_01",
+    "keywords": [
+      "комплект документации",
+      "справочник",
+      "история версий"
+    ]
+  },
+  {
+    "q_id": "F06",
+    "q_type": "factoid",
+    "difficulty": "easy",
+    "question": "Какие полномочия предоставляет роль Аудитор в ViPNet Coordinator HW?",
+    "answer": "Просмотр настроек и аудит событий",
+    "gold_chunk_id": "c46ee053d8cc6dcf",
+    "doc_id": "doc_01",
+    "keywords": [
+      "аудитор",
+      "полномочия",
+      "просмотр"
+    ]
+  },
+  {
+    "q_id": "F07",
+    "q_type": "factoid",
+    "difficulty": "medium",
+    "question": "Какие объекты лицензирования разрешает дополнительный объект VPN?",
+    "answer": "Регистрацию ViPNet-клиентов, установку туннелируемых соединений на сетевом и канальном уровнях, настройку фильтрации защищенного трафика",
+    "gold_chunk_id": "e8df00e876aff220",
+    "doc_id": "doc_01",
+    "keywords": [
+      "VPN",
+      "лицензирование",
+      "туннель"
+    ]
+  },
+  {
+    "q_id": "F08",
+    "q_type": "factoid",
+    "difficulty": "hard",
+    "question": "Из какого диапазона IP-адресов назначаются адреса одиночным туннелируемым узлам?",
+    "answer": "Из диапазона 11.0.0.1/8",
+    "gold_chunk_id": "7c7e8356accd1bf2",
+    "doc_id": "doc_02",
+    "keywords": [
+      "туннелируемый узел",
+      "11.0.0.1",
+      "диапазон адресов"
+    ]
+  },
+  {
+    "q_id": "F09",
+    "q_type": "factoid",
+    "difficulty": "medium",
+    "question": "Как задать адрес отправителя для нескольких адресов при создании фильтра?",
+    "answer": "Несколько адресов перечисляются через запятую или заключаются в двойные кавычки",
+    "gold_chunk_id": "6404f960553197a6",
+    "doc_id": "doc_04",
+    "keywords": [
+      "адрес отправителя",
+      "синтаксис",
+      "запятая"
+    ]
+  },
+  {
+    "q_id": "F10",
+    "q_type": "factoid",
+    "difficulty": "easy",
+    "question": "Какие типы сетевых фильтров существуют в ViPNet Coordinator HW?",
+    "answer": "local (локальный фильтр открытой сети), forward (транзитный фильтр открытой сети), tunnel (фильтр туннелируемых узлов), vpn (фильтр защищённого трафика)",
+    "gold_chunk_id": "90f9613ee0da25d6",
+    "doc_id": "doc_04",
+    "keywords": [
+      "local",
+      "forward",
+      "tunnel",
+      "vpn",
+      "тип фильтра"
+    ]
+  },
+  {
+    "q_id": "F11",
+    "q_type": "factoid",
+    "difficulty": "medium",
+    "question": "Какое приглашение командного интерпретатора используется в режиме настройки?",
+    "answer": "Приглашение заканчивается символом #, например hostname#",
+    "gold_chunk_id": "58b7654444a5840d",
+    "doc_id": "doc_01",
+    "keywords": [
+      "режим настройки",
+      "#",
+      "hostname"
+    ]
+  },
+  {
+    "q_id": "F12",
+    "q_type": "factoid",
+    "difficulty": "hard",
+    "question": "Что делает команда admin escape?",
+    "answer": "Выходит в системную командную оболочку shell",
+    "gold_chunk_id": "ec635a2bbab5fa64",
+    "doc_id": "doc_04",
+    "keywords": [
+      "admin escape",
+      "shell",
+      "системная оболочка"
+    ]
+  },
+  {
+    "q_id": "F13",
+    "q_type": "factoid",
+    "difficulty": "easy",
+    "question": "Для чего предназначен объект лицензирования DPI?",
+    "answer": "Идентификация прикладных протоколов, приложений, пользователей Active Directory и Captive Portal, фильтрация трафика по приложениям",
+    "gold_chunk_id": "e8df00e876aff220",
+    "doc_id": "doc_01",
+    "keywords": [
+      "DPI",
+      "лицензирование",
+      "идентификация протоколов"
+    ]
+  },
+  {
+    "q_id": "F14",
+    "q_type": "factoid",
+    "difficulty": "medium",
+    "question": "Как вводятся необязательные параметры команд в командном интерпретаторе?",
+    "answer": "Необязательные параметры заключаются в квадратные скобки [], при вводе квадратные скобки не указываются",
+    "gold_chunk_id": "b4e28c8461adbf45",
+    "doc_id": "doc_01",
+    "keywords": [
+      "квадратные скобки",
+      "необязательный параметр"
+    ]
+  },
+  {
+    "q_id": "F15",
+    "q_type": "factoid",
+    "difficulty": "hard",
+    "question": "Что означает параметр [G] в контексте параметров firewall?",
+    "answer": "[G] означает группу — DpiGroup (группа приложений), [G]DomainUser — группа пользователей Active Directory",
+    "gold_chunk_id": "331c884461acd0fe",
+    "doc_id": "doc_04",
+    "keywords": [
+      "[G]",
+      "DpiGroup",
+      "группа приложений"
+    ]
+  },
+  {
+    "q_id": "D01",
+    "q_type": "definition",
+    "difficulty": "easy",
+    "question": "Что такое TCP-туннель в контексте ViPNet?",
+    "answer": "Способ соединения клиентов ViPNet с сервером соединений по протоколу TCP, используемый когда соединение по UDP заблокировано провайдером",
+    "gold_chunk_id": "0df5a95632988035",
+    "doc_id": "doc_01",
+    "keywords": [
+      "TCP-туннель",
+      "UDP",
+      "провайдер"
+    ]
+  },
+  {
+    "q_id": "D02",
+    "q_type": "definition",
+    "difficulty": "medium",
+    "question": "Что такое сервер соединений в сети ViPNet?",
+    "answer": "Функциональность координатора, обеспечивающая соединение клиентов друг с другом в случае, если они находятся в разных подсетях и не могут соединиться напрямую",
+    "gold_chunk_id": "9a39b8649b5b8a8a",
+    "doc_id": "doc_01",
+    "keywords": [
+      "сервер соединений",
+      "подсеть",
+      "напрямую"
+    ]
+  },
+  {
+    "q_id": "D03",
+    "q_type": "definition",
+    "difficulty": "medium",
+    "question": "Что такое L2OverIP в ViPNet Coordinator HW?",
+    "answer": "Технология туннелирования на канальном уровне, при которой ViPNet Coordinator HW работает как виртуальный сетевой коммутатор, объединяющий несколько сегментов сети",
+    "gold_chunk_id": "28989636f466dcb5",
+    "doc_id": "doc_02",
+    "keywords": [
+      "L2OverIP",
+      "коммутатор",
+      "MAC-адрес"
+    ]
+  },
+  {
+    "q_id": "D04",
+    "q_type": "definition",
+    "difficulty": "easy",
+    "question": "Что такое VPN-шлюз в ViPNet Coordinator HW?",
+    "answer": "Функция ViPNet Coordinator HW, позволяющая создавать VPN-туннели на сетевом (L3) и канальном (L2) уровнях модели OSI между узлами сети ViPNet",
+    "gold_chunk_id": "69ae8bfcd80a9a69",
+    "doc_id": "doc_01",
+    "keywords": [
+      "VPN-шлюз",
+      "L3",
+      "L2",
+      "туннель"
+    ]
+  },
+  {
+    "q_id": "D05",
+    "q_type": "definition",
+    "difficulty": "easy",
+    "question": "Что такое маршрутизатор VPN-пакетов в ViPNet?",
+    "answer": "Функция координатора, выполняющая маршрутизацию защищённого трафика в сети ViPNet на основе идентификаторов ViPNet ID",
+    "gold_chunk_id": "96f94150b202d2ed",
+    "doc_id": "doc_01",
+    "keywords": [
+      "маршрутизатор VPN",
+      "ViPNet ID",
+      "защищённый трафик"
+    ]
+  },
+  {
+    "q_id": "D06",
+    "q_type": "definition",
+    "difficulty": "medium",
+    "question": "Что такое NAT и какие задачи он решает в ViPNet Coordinator HW?",
+    "answer": "Network Address Translation — трансляция сетевых адресов. Решает две задачи: подключение локальной сети к интернету при нехватке публичных IP-адресов, и скрытие внутренней топологии сети",
+    "gold_chunk_id": "28716422eb3d6672",
+    "doc_id": "doc_01",
+    "keywords": [
+      "NAT",
+      "трансляция адресов",
+      "публичные IP"
+    ]
+  },
+  {
+    "q_id": "D07",
+    "q_type": "definition",
+    "difficulty": "easy",
+    "question": "Что такое SPI в контексте межсетевого экрана ViPNet?",
+    "answer": "SPI (Stateful Packet Inspection) — межсетевой экран с контролем состояния сессий, фильтрующий трафик с учётом контекста соединений",
+    "gold_chunk_id": "7c6d3395a70dcc96",
+    "doc_id": "doc_01",
+    "keywords": [
+      "SPI",
+      "Stateful Packet Inspection",
+      "состояние сессий"
+    ]
+  },
+  {
+    "q_id": "D08",
+    "q_type": "definition",
+    "difficulty": "easy",
+    "question": "Что такое DPI в межсетевом экране ViPNet Coordinator HW?",
+    "answer": "DPI (Deep Packet Inspection) — межсетевой экран уровня приложений, анализирующий содержимое пакетов для идентификации приложений и протоколов",
+    "gold_chunk_id": "7c6d3395a70dcc96",
+    "doc_id": "doc_01",
+    "keywords": [
+      "DPI",
+      "Deep Packet Inspection",
+      "приложений"
+    ]
+  },
+  {
+    "q_id": "D09",
+    "q_type": "definition",
+    "difficulty": "medium",
+    "question": "Что такое одиночный туннелируемый узел в ViPNet?",
+    "answer": "Узел, IP-адрес которого явно, а не в составе диапазона IP-адресов, указан в настройках туннелирования",
+    "gold_chunk_id": "7c7e8356accd1bf2",
+    "doc_id": "doc_02",
+    "keywords": [
+      "одиночный туннелируемый узел",
+      "IP-адрес",
+      "диапазон"
+    ]
+  },
+  {
+    "q_id": "D10",
+    "q_type": "definition",
+    "difficulty": "medium",
+    "question": "Что такое ViPNet Coordinator HW 5 в целом?",
+    "answer": "Многофункциональный шлюз безопасности, реализующий концепцию NGFW (Next-Generation Firewall), объединяющий в одном устройстве межсетевой экран SPI/DPI, прокси-сервер, IPS, VPN-шлюз",
+    "gold_chunk_id": "7c6d3395a70dcc96",
+    "doc_id": "doc_01",
+    "keywords": [
+      "NGFW",
+      "Next-Generation Firewall",
+      "IPS",
+      "VPN"
+    ]
+  },
+  {
+    "q_id": "T01",
+    "q_type": "table",
+    "difficulty": "easy",
+    "question": "Сколько ядер процессора рекомендуется для Coordinator VA100 с лицензией основной + VPN?",
+    "answer": "2 ядра",
+    "gold_chunk_id": "bd488e7834a47366",
+    "doc_id": "doc_01",
+    "keywords": [
+      "VA100",
+      "ядра",
+      "VPN"
+    ]
+  },
+  {
+    "q_id": "T02",
+    "q_type": "table",
+    "difficulty": "easy",
+    "question": "Сколько оперативной памяти рекомендуется для Coordinator VA500 с лицензией основной + VPN + DPI + IPS?",
+    "answer": "8 Гбайт",
+    "gold_chunk_id": "3dc8bf5a8c76fab7",
+    "doc_id": "doc_01",
+    "keywords": [
+      "VA500",
+      "память",
+      "DPI",
+      "IPS"
+    ]
+  },
+  {
+    "q_id": "T03",
+    "q_type": "table",
+    "difficulty": "medium",
+    "question": "Сколько ядер процессора рекомендуется для Coordinator VA1000 с лицензией основной + VPN + DPI + IPS?",
+    "answer": "8 ядер",
+    "gold_chunk_id": "3dc8bf5a8c76fab7",
+    "doc_id": "doc_01",
+    "keywords": [
+      "VA1000",
+      "ядра",
+      "DPI IPS"
+    ]
+  },
+  {
+    "q_id": "T04",
+    "q_type": "table",
+    "difficulty": "easy",
+    "question": "Сколько сетевых фильтров малой сложности поддерживает платформа HW100 N1/N2/N3/Q1/Q2?",
+    "answer": "2900 фильтров",
+    "gold_chunk_id": "00959604a83d6b52",
+    "doc_id": "doc_01",
+    "keywords": [
+      "HW100",
+      "2900",
+      "фильтры",
+      "малая сложность"
+    ]
+  },
+  {
+    "q_id": "T05",
+    "q_type": "table",
+    "difficulty": "medium",
+    "question": "Сколько сетевых фильтров малой сложности поддерживает платформа HW1000 Q4/Q7?",
+    "answer": "20000 фильтров",
+    "gold_chunk_id": "00959604a83d6b52",
+    "doc_id": "doc_01",
+    "keywords": [
+      "HW1000",
+      "20000",
+      "фильтры"
+    ]
+  },
+  {
+    "q_id": "T06",
+    "q_type": "table",
+    "difficulty": "medium",
+    "question": "Сколько фильтров высокой сложности поддерживает платформа HW50 N1/N2/N3/N4?",
+    "answer": "10 фильтров",
+    "gold_chunk_id": "00959604a83d6b52",
+    "doc_id": "doc_01",
+    "keywords": [
+      "HW50",
+      "10",
+      "высокая сложность"
+    ]
+  },
+  {
+    "q_id": "T07",
+    "q_type": "table",
+    "difficulty": "hard",
+    "question": "Какой объём оперативной памяти рекомендован для Coordinator VA2000 с лицензией основной + VPN?",
+    "answer": "Информация отсутствует в усечённом чанке (требуется полная таблица)",
+    "gold_chunk_id": "bd488e7834a47366",
+    "doc_id": "doc_01",
+    "keywords": [
+      "VA2000",
+      "память",
+      "VPN"
+    ]
+  },
+  {
+    "q_id": "T08",
+    "q_type": "table",
+    "difficulty": "easy",
+    "question": "Какова скорость интерфейсов для Coordinator VA100 с лицензией основной + VPN?",
+    "answer": "1 Гбит/с",
+    "gold_chunk_id": "bd488e7834a47366",
+    "doc_id": "doc_01",
+    "keywords": [
+      "VA100",
+      "скорость",
+      "интерфейс",
+      "1"
+    ]
+  },
+  {
+    "q_id": "R01",
+    "q_type": "reasoning",
+    "difficulty": "medium",
+    "question": "Почему TCP-туннель используется вместо стандартного UDP-соединения ViPNet?",
+    "answer": "TCP-туннель используется когда соединение по протоколу UDP заблокировано провайдерами услуг интернета",
+    "gold_chunk_id": "0df5a95632988035",
+    "doc_id": "doc_01",
+    "keywords": [
+      "TCP-туннель",
+      "UDP",
+      "заблокировано"
+    ]
+  },
+  {
+    "q_id": "R02",
+    "q_type": "reasoning",
+    "difficulty": "medium",
+    "question": "Почему команда admin escape предназначена только для опытных администраторов?",
+    "answer": "Потому что ИнфоТеКС не гарантирует нормальную работу ViPNet Coordinator HW в случае некорректных действий администратора в системной командной оболочке",
+    "gold_chunk_id": "ec635a2bbab5fa64",
+    "doc_id": "doc_04",
+    "keywords": [
+      "admin escape",
+      "опытный",
+      "гарантирует"
+    ]
+  },
+  {
+    "q_id": "R03",
+    "q_type": "reasoning",
+    "difficulty": "easy",
+    "question": "Зачем используется маршрутизация VPN-пакетов в сети ViPNet?",
+    "answer": "Для маршрутизации защищённого трафика между клиентами в разных подсетях на основе идентификаторов ViPNet ID",
+    "gold_chunk_id": "96f94150b202d2ed",
+    "doc_id": "doc_01",
+    "keywords": [
+      "маршрутизация",
+      "подсети",
+      "ViPNet ID"
+    ]
+  },
+  {
+    "q_id": "R04",
+    "q_type": "reasoning",
+    "difficulty": "easy",
+    "question": "Для чего применяется NAT при подключении локальной сети к интернету?",
+    "answer": "Для подключения компьютеров с частными IP-адресами к интернету когда количество узлов превышает количество выданных провайдером публичных IP-адресов",
+    "gold_chunk_id": "28716422eb3d6672",
+    "doc_id": "doc_01",
+    "keywords": [
+      "NAT",
+      "частные адреса",
+      "публичные",
+      "интернет"
+    ]
+  },
+  {
+    "q_id": "R05",
+    "q_type": "reasoning",
+    "difficulty": "medium",
+    "question": "Почему в ViPNet Coordinator HW объединены несколько функций безопасности в одном устройстве?",
+    "answer": "Для реализации концепции NGFW (Next-Generation Firewall) — обеспечения комплексной защиты сети через совместную работу межсетевого экрана, IPS, DPI и VPN в едином устройстве",
+    "gold_chunk_id": "7c6d3395a70dcc96",
+    "doc_id": "doc_01",
+    "keywords": [
+      "NGFW",
+      "комплексная защита",
+      "совместно"
+    ]
+  },
+  {
+    "q_id": "R06",
+    "q_type": "reasoning",
+    "difficulty": "hard",
+    "question": "Почему в L2OverIP каждому сегменту сети назначается отдельный номер порта?",
+    "answer": "Для идентификации сегментов сети виртуальным коммутатором при хранении таблицы MAC-адресов",
+    "gold_chunk_id": "28989636f466dcb5",
+    "doc_id": "doc_02",
+    "keywords": [
+      "L2OverIP",
+      "порт",
+      "сегмент",
+      "MAC"
+    ]
+  },
+  {
+    "q_id": "R07",
+    "q_type": "reasoning",
+    "difficulty": "medium",
+    "question": "Зачем сервер соединений нужен клиентам ViPNet в разных подсетях?",
+    "answer": "Чтобы клиенты могли соединиться друг с другом когда они находятся в разных подсетях и не могут соединиться напрямую",
+    "gold_chunk_id": "9a39b8649b5b8a8a",
+    "doc_id": "doc_01",
+    "keywords": [
+      "сервер соединений",
+      "разные подсети",
+      "напрямую"
+    ]
+  },
+  {
+    "q_id": "R08",
+    "q_type": "reasoning",
+    "difficulty": "easy",
+    "question": "Почему документация разделена на отдельные документы для CLI и веб-интерфейса?",
+    "answer": "Потому что это два независимых способа настройки ViPNet Coordinator HW с разными интерфейсами и сценариями использования",
+    "gold_chunk_id": "5d1ce3bcfc55cbae",
+    "doc_id": "doc_01",
+    "keywords": [
+      "CLI",
+      "веб-интерфейс",
+      "настройка"
+    ]
+  },
+  {
+    "q_id": "R09",
+    "q_type": "reasoning",
+    "difficulty": "medium",
+    "question": "Почему ViPNet Coordinator HW поддерживает несколько режимов лицензирования?",
+    "answer": "Лицензирование позволяет задействовать только нужные на текущий момент функции и расширять их по мере развития сети",
+    "gold_chunk_id": "e8df00e876aff220",
+    "doc_id": "doc_01",
+    "keywords": [
+      "лицензирование",
+      "расширять",
+      "функции"
+    ]
+  },
+  {
+    "q_id": "R10",
+    "q_type": "reasoning",
+    "difficulty": "hard",
+    "question": "Почему идентификатор VPN-узла (ViPNet ID) не меняется при изменении IP-адреса?",
+    "answer": "Потому что защищённый трафик маршрутизируется на основе постоянных идентификаторов ViPNet ID, которые не зависят от реальных IP-адресов",
+    "gold_chunk_id": "96f94150b202d2ed",
+    "doc_id": "doc_01",
+    "keywords": [
+      "ViPNet ID",
+      "постоянный",
+      "маршрутизация"
+    ]
+  },
+  {
+    "q_id": "P01",
+    "q_type": "procedural",
+    "difficulty": "medium",
+    "question": "Как задать шлюз по умолчанию при инициализации ViPNet Coordinator HW?",
+    "answer": "На шаге 21 мастера инициализации ввести IP-адрес шлюза и нажать Enter",
+    "gold_chunk_id": "b1361deddbe1d27f",
+    "doc_id": "doc_01",
+    "keywords": [
+      "шлюз",
+      "DHCP",
+      "IP-адрес",
+      "Enter"
+    ]
+  },
+  {
+    "q_id": "P02",
+    "q_type": "procedural",
+    "difficulty": "medium",
+    "question": "Как пропустить настройку сетевого интерфейса в мастере инициализации?",
+    "answer": "В строке Configure interface eth<номер>? [Yes/No] ввести n и нажать Enter",
+    "gold_chunk_id": "d4b3cde24c3b8720",
+    "doc_id": "doc_01",
+    "keywords": [
+      "Configure interface",
+      "n",
+      "Enter",
+      "пропустить"
+    ]
+  },
+  {
+    "q_id": "P03",
+    "q_type": "procedural",
+    "difficulty": "medium",
+    "question": "Как ввести пароль к файлу дистрибутива ключей при инициализации?",
+    "answer": "На шаге 14 в строке 'Enter password' ввести пароль и нажать Enter",
+    "gold_chunk_id": "3073f9ae4de33412",
+    "doc_id": "doc_01",
+    "keywords": [
+      "пароль",
+      "дистрибутив ключей",
+      "Enter password"
+    ]
+  },
+  {
+    "q_id": "P04",
+    "q_type": "procedural",
+    "difficulty": "hard",
+    "question": "Как выбрать ручной способ настройки при инициализации ViPNet Coordinator HW?",
+    "answer": "В строке 'Select the setup method' ввести 1 и нажать Enter",
+    "gold_chunk_id": "3073f9ae4de33412",
+    "doc_id": "doc_01",
+    "keywords": [
+      "setup method",
+      "1",
+      "ручной способ"
+    ]
+  },
+  {
+    "q_id": "P05",
+    "q_type": "procedural",
+    "difficulty": "easy",
+    "question": "Что нужно сделать у администратора сети ViPNet перед инициализацией устройства?",
+    "answer": "Получить дистрибутив ключей и пароль к нему, выяснить доменное имя и ViPNet ID ViPNet Prime, при необходимости получить USB-токен",
+    "gold_chunk_id": "f3f482cbd6334a31",
+    "doc_id": "doc_01",
+    "keywords": [
+      "дистрибутив ключей",
+      "ViPNet Prime",
+      "USB-токен"
+    ]
+  },
+  {
+    "q_id": "P06",
+    "q_type": "procedural",
+    "difficulty": "medium",
+    "question": "Как выбрать образ диска для виртуальной машины ViPNet Coordinator VA?",
+    "answer": "На вкладке Хранилище для ДИСК 0 выбрать Образ и из списка выбрать файл с меткой disk1, для ДИСК 1 — файл с меткой disk2",
+    "gold_chunk_id": "f00a6efb34ff6997",
+    "doc_id": "doc_01",
+    "keywords": [
+      "Хранилище",
+      "disk1",
+      "disk2",
+      "образ"
+    ]
+  },
+  {
+    "q_id": "P07",
+    "q_type": "procedural",
+    "difficulty": "hard",
+    "question": "Какова последовательность шагов при настройке DNS-сервера после инициализации?",
+    "answer": "Установить режим запуска DNS-сервера при загрузке ViPNet Coordinator HW",
+    "gold_chunk_id": "b1361deddbe1d27f",
+    "doc_id": "doc_01",
+    "keywords": [
+      "DNS",
+      "режим запуска",
+      "загрузка"
+    ]
+  }
+]
